@@ -112,8 +112,10 @@ p {
 .nav-link:hover,
 .nav-link:focus-visible,
 .nav-link.active {
-  color: var(--soft-white);
-  background: rgba(122, 184, 255, 0.16);
+  co balor: var(--soft-white);
+ backdrop-filter: blur(8px);
+background: rgba(255, 255, 255, 0.85);
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .hero {
